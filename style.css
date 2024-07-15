@@ -420,6 +420,19 @@ h2, h1 {
     }
 }
 
+@media (max-width: 450px) {
+    .collarboration {
+        grid-template: auto / 1fr ;
+        grid-auto-rows: auto;
+        margin-bottom: 2rem;
+    }
+
+    .projects-cv {
+        margin: 0% 0rem;
+        gap: 0.5rem;
+    }
+}
+
 @media (max-width: 370px) {
 
     #pp {
@@ -462,6 +475,5 @@ h2, h1 {
         padding: 10px;
     }
 
-   
   
 }
